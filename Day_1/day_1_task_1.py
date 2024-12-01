@@ -16,6 +16,7 @@ for line in lines:
 first_values.sort()
 second_values.sort()
 
+# Calculate result from differences at each index of sorted array
 result = 0
 for i in range(0, len(first_values)):
     first = first_values[i]
